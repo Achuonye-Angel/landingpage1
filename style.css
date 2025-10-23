@@ -1,0 +1,114 @@
+body{
+    background-color: wheat;
+}
+.main-container{
+    background-color: white;
+    width: 600px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.menu{
+    width: 90%;
+    height: 60px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+img{
+    display: block;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.developer{
+    text-align: center;
+}
+
+.developer h6{
+    color: green;
+}
+
+.About-me{
+    text-decoration: underline green;
+}
+
+.contact-info{
+    text-decoration: underline green;
+}
+
+.Education{
+    text-decoration: underline green;
+}
+
+.skills{
+    text-decoration: underline green;
+}
+
+.hobbies{
+    text-decoration: underline green;
+    display: block;
+}
+
+.flex{
+    background-color: teal;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex a{
+    color: black;
+    text-decoration: none;
+    border-right: 2px solid black;
+}
+
+.About{
+    margin-left: 20px;  
+}
+
+@media(max-width:400px){
+    .main-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .img{width: 100%;}
+
+    .developer{width: 100%;}
+
+    .About-me{width: 100%;}
+
+    .contact-info{width: 100%;}
+
+    .Education{width: 100%;}
+
+    .skills{width: 100%;}
+
+    .hobbies{width: 100%;}
+
+    .flex{width: 100%;}
+
+    .About{width: 100%;}
+
+}
